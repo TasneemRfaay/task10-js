@@ -1,0 +1,52 @@
+body {
+  background-color: #212529;
+}
+.w-75 {
+  background-color: #212529;
+  box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+h1 ,h2{
+  color: #17a2b8;
+  font-size: 40px;
+  font-weight: 500;
+}
+.w-75 input,
+.w-75 input:hover,
+.w-75 input:focus {
+  background-color: transparent;
+  color: white;
+}
+.w-75 h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.w-75 a,
+#sign-up h5 .sign-up-link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.w-75 a:hover,
+#sign-up h5 .sign-up-link {
+  text-decoration: underline;
+}
+.d-grid button:hover {
+  color: white;
+  background-color: #17a2b8;
+}
+.navbar {
+  background-color: #212529;
+}
+
+#sign-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+}

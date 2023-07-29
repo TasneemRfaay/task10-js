@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log in system</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="position-relative">
+    <div class="w-75 m-auto my-5 p-5 text-center" id="sign-in">
+      <h1 class="text-primary">Smart Login System</h1>
+      <form>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          id="mail"
+          class="form-control my-4"
+        />
+
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="pass"
+          class="form-control mb-4"
+        />
+        <p id="signinPMail" class="text-danger d-none"></p>
+
+        <div class="d-grid">
+          <button
+            type="button"
+            id="signBtn"
+            class="btn btn-outline-primary btn-block"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+      <h5 class="text-white m-5">
+        Don’t have an account?
+        <a id="sign-in-btn">Sign Up</a>
+      </h5>
+    </div>
+    <div class="w-75 m-auto my-5 p-5 text-center" id="sign-up">
+      <h1 class="text-primary">Smart Login System</h1>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          id="signName"
+          class="form-control my-3"
+        />
+
+        <input
+          type="email"
+          placeholder="Enter your email"
+          id="signMail"
+          class="form-control my-3"
+        />
+
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="signPass"
+          class="form-control mb-3"
+        />
+        <h3 id="signupAlert text-danger" class="d-none"></h3>
+        <div class="d-grid">
+          <button
+            type="button"
+            id="signUpBtn"
+            class="btn btn-outline-primary btn-block"
+          >
+            Sign Up
+          </button>
+        </div>
+      </form>
+      <h5 class="text-white m-5">
+        you have an account? <a id="sign-up-link">SignIn</a>
+      </h5>
+    </div>
+    <div class="signed d-none" id="signned">
+      <nav class="navbar navbar-expand-sm shadow-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">smart login</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarID"
+            aria-controls="navbarID"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarID">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" id="logout"
+                >log out</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="w-75 m-auto my-5 p-5 text-center">
+        <h2 id="welcome">welcome</h2>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
